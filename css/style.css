@@ -1,0 +1,159 @@
+/* Estilos globales */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+}
+
+/* Colores destacados */
+h1 span, .highlight {
+    color: #FFC107;
+}
+
+/* Header */
+.header {
+    background: linear-gradient(135deg, #3F51B5, #2196F3);
+    padding: 120px 0;
+    text-align: center;
+    color: white;
+    position: relative;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Logo en la parte superior izquierda */
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    height: 200px; /* Ajusta el tamaño del logo según sea necesario */
+    width: 200px;
+}
+
+.header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.header p {
+    font-size: 1.25rem;
+}
+
+/* Botón destacado */
+.btn-highlight {
+    background-color: #FFC107;
+    color: #333;
+    font-size: 1.2rem;
+    padding: 0.75rem 1.5rem;
+    border-radius: 50px;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.btn-highlight:hover {
+    background-color: #FFEB3B;
+    transform: translateY(-2px);
+}
+
+/* Footer */
+footer a {
+    color: #FFC107;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Menú de navegación */
+.navbar {
+    background-color: transparent;
+    padding: 0;
+}
+
+.navbar .nav-link {
+    color: white !important;
+    font-weight: 600;
+}
+
+.navbar .nav-link:hover {
+    color: #FFC107 !important;
+}
+
+/* Redes Sociales */
+#redes-sociales i {
+    transition: color 0.3s ease;
+}
+
+#redes-sociales i:hover {
+    color: #FFC107;
+}
+
+/* Estilos de las tarjetas */
+.card {
+    border: none;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card-title {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    color: #303F9F;
+}
+
+/* Imágenes dentro de las tarjetas */
+.card-img-top {
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.card-img-top:hover {
+    transform: scale(1.05);
+}
+
+/* Sección de Introducción */
+#inicio {
+    background-color: #ffffff;
+    padding: 80px 0;
+    text-align: center;
+    color: #333;
+}
+
+#inicio h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+#inicio p {
+    font-size: 1.25rem;
+    color: #555;
+}
+
+#inicio img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+/* Sección de Redes Sociales */
+#redes-sociales {
+    background-color: #333;
+    padding: 60px 0;
+    color: white;
+}
+
+/* Footer */
+footer {
+    background-color: #3F51B5;
+    padding: 30px 0;
+    text-align: center;
+    color: white;
+}
